@@ -1,1 +1,2 @@
 # js_lesson_7-5
+DMM WEBCAMPの学習コンテンツJavaScriptを学ぼうの「jQueryでHTMLのCSS要素を操作しよう」の確認問題です。
