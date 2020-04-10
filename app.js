@@ -1,12 +1,9 @@
 $(function(){
-    $.when(
-    $('.box1').slideDown(),
-    $('.box1').css({
-        'background-color': '#0000FF',
-        'weight': '200px',
-        'height': '100px'
-    })
-    ).done(function(){
-    $('.box1').slideUp();
+    $('.box1').slideDown(function() {
+        $('.box1').css({
+            'background-color': '#0000FF',
+            'width': '200px',
+            'height': '100px'
+        }).slideUp(1500);
     });
 });
